@@ -16,7 +16,7 @@ public class TimeOfRestServiceTest {
 
         int actual = service.calcTimeOfRest(income, expenses, threshold);
 
-        Assertions.assertEquals(expected,actual);
+        Assertions.assertEquals(expected, actual);
     }
 
     @Test
@@ -30,7 +30,7 @@ public class TimeOfRestServiceTest {
 
         int actual = service.calcTimeOfRest(income, expenses, threshold);
 
-        Assertions.assertEquals(expected,actual);
+        Assertions.assertEquals(expected, actual);
     }
 
 }
